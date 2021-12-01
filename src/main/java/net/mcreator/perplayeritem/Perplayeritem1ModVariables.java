@@ -120,6 +120,15 @@ public class Perplayeritem1ModVariables {
 		public double d10 = 0;
 		public double d11 = 0;
 		public double d12 = 0;
+		public double d13 = 0;
+		public double d14 = 0;
+		public double d15 = 0;
+		public double d16 = 0;
+		public double d17 = 0;
+		public double d18 = 0;
+		public double d19 = 0;
+		public double d20 = 0;
+		public double d20p = 0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -143,6 +152,15 @@ public class Perplayeritem1ModVariables {
 			d10 = nbt.getDouble("d10");
 			d11 = nbt.getDouble("d11");
 			d12 = nbt.getDouble("d12");
+			d13 = nbt.getDouble("d13");
+			d14 = nbt.getDouble("d14");
+			d15 = nbt.getDouble("d15");
+			d16 = nbt.getDouble("d16");
+			d17 = nbt.getDouble("d17");
+			d18 = nbt.getDouble("d18");
+			d19 = nbt.getDouble("d19");
+			d20 = nbt.getDouble("d20");
+			d20p = nbt.getDouble("d20p");
 		}
 
 		@Override
@@ -159,6 +177,15 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d10", d10);
 			nbt.putDouble("d11", d11);
 			nbt.putDouble("d12", d12);
+			nbt.putDouble("d13", d13);
+			nbt.putDouble("d14", d14);
+			nbt.putDouble("d15", d15);
+			nbt.putDouble("d16", d16);
+			nbt.putDouble("d17", d17);
+			nbt.putDouble("d18", d18);
+			nbt.putDouble("d19", d19);
+			nbt.putDouble("d20", d20);
+			nbt.putDouble("d20p", d20p);
 			return nbt;
 		}
 
@@ -260,6 +287,12 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d10p", instance.d10p);
 			nbt.putDouble("d11p", instance.d11p);
 			nbt.putDouble("d12p", instance.d12p);
+			nbt.putDouble("d13p", instance.d13p);
+			nbt.putDouble("d14p", instance.d14p);
+			nbt.putDouble("d15p", instance.d15p);
+			nbt.putDouble("d17p", instance.d17p);
+			nbt.putDouble("d18p", instance.d18p);
+			nbt.putDouble("d19p", instance.d19p);
 			return nbt;
 		}
 
@@ -278,6 +311,12 @@ public class Perplayeritem1ModVariables {
 			instance.d10p = nbt.getDouble("d10p");
 			instance.d11p = nbt.getDouble("d11p");
 			instance.d12p = nbt.getDouble("d12p");
+			instance.d13p = nbt.getDouble("d13p");
+			instance.d14p = nbt.getDouble("d14p");
+			instance.d15p = nbt.getDouble("d15p");
+			instance.d17p = nbt.getDouble("d17p");
+			instance.d18p = nbt.getDouble("d18p");
+			instance.d19p = nbt.getDouble("d19p");
 		}
 	}
 
@@ -294,6 +333,12 @@ public class Perplayeritem1ModVariables {
 		public double d10p = 0;
 		public double d11p = 0;
 		public double d12p = 0;
+		public double d13p = 0;
+		public double d14p = 0;
+		public double d15p = 0;
+		public double d17p = 0;
+		public double d18p = 0;
+		public double d19p = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -341,6 +386,12 @@ public class Perplayeritem1ModVariables {
 			clone.d10p = original.d10p;
 			clone.d11p = original.d11p;
 			clone.d12p = original.d12p;
+			clone.d13p = original.d13p;
+			clone.d14p = original.d14p;
+			clone.d15p = original.d15p;
+			clone.d17p = original.d17p;
+			clone.d18p = original.d18p;
+			clone.d19p = original.d19p;
 		}
 	}
 
@@ -378,6 +429,12 @@ public class Perplayeritem1ModVariables {
 					variables.d10p = message.data.d10p;
 					variables.d11p = message.data.d11p;
 					variables.d12p = message.data.d12p;
+					variables.d13p = message.data.d13p;
+					variables.d14p = message.data.d14p;
+					variables.d15p = message.data.d15p;
+					variables.d17p = message.data.d17p;
+					variables.d18p = message.data.d18p;
+					variables.d19p = message.data.d19p;
 				}
 			});
 			context.setPacketHandled(true);
