@@ -1185,6 +1185,90 @@
           }
         ]
       }
+    },
+    {
+      "name": "Playerhasdisc14",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_14",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc15",
+      "type": "musicdisc",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_15"
+    },
+    {
+      "name": "Disc15pickup",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_15pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc15dropitem",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_15dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1456,10 +1540,12 @@
       "item.perplayeritem1.disc_3": "Disc 3",
       "item.perplayeritem1.disc_4": "Disc 4",
       "item.perplayeritem1.disc_7.desc": "Custom Disc 7",
+      "item.perplayeritem1.disc_15": "Disc 15",
       "item.perplayeritem1.disc_14": "Disc 14",
       "item.perplayeritem1.disc_13": "Disc 13",
       "item.perplayeritem1.disc_12": "Disc 12",
       "item.perplayeritem1.disc_12.desc": "Custom Disc 12",
+      "item.perplayeritem1.disc_15.desc": "Custom Disc 15",
       "item.perplayeritem1.disc_6.desc": "Custom Disc 6",
       "item.perplayeritem1.disc_11": "Disc 11",
       "item.perplayeritem1.disc_10": "Disc 10",
