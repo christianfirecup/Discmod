@@ -870,6 +870,90 @@
           }
         ]
       }
+    },
+    {
+      "name": "Disc11",
+      "type": "musicdisc",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_11"
+    },
+    {
+      "name": "Disc11pickup",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_11pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc11dropitem",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_11dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc11",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_11",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -992,6 +1076,18 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "d11",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d11p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -1021,10 +1117,12 @@
       "item.perplayeritem1.disc_7": "Disc 7",
       "item.perplayeritem1.disc_4.desc": "Custom Disc 4",
       "item.perplayeritem1.disc_8": "Disc 8",
+      "item.perplayeritem1.disc_11.desc": "Custom Disc 11",
       "item.perplayeritem1.disc_1.desc": "Custom Disc 1",
       "subtitles.disk1sound": "",
       "item.perplayeritem1.disc_6.desc": "Custom Disc 6",
       "item.perplayeritem1.disc_8.desc": "Custom Disc 8",
+      "item.perplayeritem1.disc_11": "Disc 11",
       "item.perplayeritem1.disc_10": "Disc 10",
       "item.perplayeritem1.disc_3.desc": "Custom Disc 3"
     }
@@ -1050,5 +1148,5 @@
     "modElementsPackage": "net.mcreator.perplayeritem",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100347317
+  "mcreatorVersion": 202100349312
 }

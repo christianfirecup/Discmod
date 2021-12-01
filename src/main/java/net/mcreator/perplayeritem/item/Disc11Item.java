@@ -12,7 +12,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.perplayeritem.procedures.Disc2pickupProcedure;
+import net.mcreator.perplayeritem.procedures.Disc10pickupProcedure;
 import net.mcreator.perplayeritem.Perplayeritem1ModElements;
 
 import java.util.stream.Stream;
@@ -21,12 +21,12 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 @Perplayeritem1ModElements.ModElement.Tag
-public class Disc2Item extends Perplayeritem1ModElements.ModElement {
-	@ObjectHolder("perplayeritem1:disc_2")
+public class Disc11Item extends Perplayeritem1ModElements.ModElement {
+	@ObjectHolder("perplayeritem1:disc_11")
 	public static final Item block = null;
 
-	public Disc2Item(Perplayeritem1ModElements instance) {
-		super(instance, 6);
+	public Disc11Item(Perplayeritem1ModElements instance) {
+		super(instance, 43);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class Disc2Item extends Perplayeritem1ModElements.ModElement {
 		public MusicDiscItemCustom() {
 			super(0, Perplayeritem1ModElements.sounds.get(new ResourceLocation("perplayeritem1:disk1sound")),
 					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
-			setRegistryName("disc_2");
+			setRegistryName("disc_11");
 		}
 
 		@Override
@@ -48,7 +48,7 @@ public class Disc2Item extends Perplayeritem1ModElements.ModElement {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			Disc2pickupProcedure
+			Disc10pickupProcedure
 					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
