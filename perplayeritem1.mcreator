@@ -954,6 +954,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "Disc12",
+      "type": "musicdisc",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_12"
+    },
+    {
+      "name": "Disc12pickup",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_12pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1088,6 +1118,18 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "d12",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d12p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -1103,8 +1145,16 @@
   "language_map": {
     "en_us": {
       "item.perplayeritem1.disc_10.desc": "Custom Disc 10",
-      "item.perplayeritem1.disc_5.desc": "Custom Disc 5",
       "item.perplayeritem1.disc_9.desc": "Custom Disc 9",
+      "item.perplayeritem1.disc_9": "Disc 9",
+      "item.perplayeritem1.disc_7": "Disc 7",
+      "item.perplayeritem1.disc_8": "Disc 8",
+      "item.perplayeritem1.disc_4.desc": "Custom Disc 4",
+      "item.perplayeritem1.disc_11.desc": "Custom Disc 11",
+      "item.perplayeritem1.disc_1.desc": "Custom Disc 1",
+      "subtitles.disk1sound": "",
+      "item.perplayeritem1.disc_8.desc": "Custom Disc 8",
+      "item.perplayeritem1.disc_5.desc": "Custom Disc 5",
       "item.perplayeritem1.disc_1": "Disc 1",
       "item.perplayeritem1.disc_2": "Disc 2",
       "item.perplayeritem1.disc_2.desc": "Custom Disc 2",
@@ -1113,15 +1163,9 @@
       "item.perplayeritem1.disc_3": "Disc 3",
       "item.perplayeritem1.disc_4": "Disc 4",
       "item.perplayeritem1.disc_7.desc": "Custom Disc 7",
-      "item.perplayeritem1.disc_9": "Disc 9",
-      "item.perplayeritem1.disc_7": "Disc 7",
-      "item.perplayeritem1.disc_4.desc": "Custom Disc 4",
-      "item.perplayeritem1.disc_8": "Disc 8",
-      "item.perplayeritem1.disc_11.desc": "Custom Disc 11",
-      "item.perplayeritem1.disc_1.desc": "Custom Disc 1",
-      "subtitles.disk1sound": "",
+      "item.perplayeritem1.disc_12": "Disc 12",
+      "item.perplayeritem1.disc_12.desc": "Custom Disc 12",
       "item.perplayeritem1.disc_6.desc": "Custom Disc 6",
-      "item.perplayeritem1.disc_8.desc": "Custom Disc 8",
       "item.perplayeritem1.disc_11": "Disc 11",
       "item.perplayeritem1.disc_10": "Disc 10",
       "item.perplayeritem1.disc_3.desc": "Custom Disc 3"

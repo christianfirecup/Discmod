@@ -3,8 +3,8 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "ark_disc",
-    "name": "Disc 11",
-    "description": "Custom Disc 11",
+    "name": "Disc 12",
+    "description": "Custom Disc 12",
     "creativeTab": {
       "value": "MISC"
     },
@@ -14,7 +14,7 @@
     "specialInfo": [],
     "hasGlow": false,
     "onItemInInventoryTick": {
-      "name": "Disc11pickup"
+      "name": "Disc12pickup"
     }
   }
 }
