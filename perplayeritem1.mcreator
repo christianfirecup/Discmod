@@ -1269,6 +1269,27 @@
           }
         ]
       }
+    },
+    {
+      "name": "Playerhasdisc15",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_15",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
