@@ -984,6 +984,60 @@
           }
         ]
       }
+    },
+    {
+      "name": "Disc12dropitem",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_12dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc12",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_12",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1148,12 +1202,12 @@
       "item.perplayeritem1.disc_9.desc": "Custom Disc 9",
       "item.perplayeritem1.disc_9": "Disc 9",
       "item.perplayeritem1.disc_7": "Disc 7",
-      "item.perplayeritem1.disc_8": "Disc 8",
       "item.perplayeritem1.disc_4.desc": "Custom Disc 4",
+      "item.perplayeritem1.disc_8": "Disc 8",
       "item.perplayeritem1.disc_11.desc": "Custom Disc 11",
       "item.perplayeritem1.disc_1.desc": "Custom Disc 1",
-      "subtitles.disk1sound": "",
       "item.perplayeritem1.disc_8.desc": "Custom Disc 8",
+      "subtitles.disk1sound": "",
       "item.perplayeritem1.disc_5.desc": "Custom Disc 5",
       "item.perplayeritem1.disc_1": "Disc 1",
       "item.perplayeritem1.disc_2": "Disc 2",
