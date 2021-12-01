@@ -1,0 +1,11 @@
+{
+  "disk1sound": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "perplayeritem1:disc1",
+        "stream": true
+      }
+    ]
+  }
+}

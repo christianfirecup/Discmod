@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ark_disc",
+    "name": "Disc 8",
+    "description": "Custom Disc 8",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:disk1sound"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "onItemInInventoryTick": {
+      "name": "Disc8pickup"
+    }
+  }
+}
