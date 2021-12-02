@@ -1290,6 +1290,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Disc16",
+      "type": "musicdisc",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_16"
     }
   ],
   "variable_elements": [
@@ -1542,11 +1551,12 @@
     "en_us": {
       "item.perplayeritem1.disc_10.desc": "Custom Disc 10",
       "item.perplayeritem1.disc_13.desc": "Custom Disc 13",
+      "item.perplayeritem1.disc_16.desc": "Custom Disc 15",
       "item.perplayeritem1.disc_9.desc": "Custom Disc 9",
       "item.perplayeritem1.disc_9": "Disc 9",
       "item.perplayeritem1.disc_7": "Disc 7",
-      "item.perplayeritem1.disc_4.desc": "Custom Disc 4",
       "item.perplayeritem1.disc_8": "Disc 8",
+      "item.perplayeritem1.disc_4.desc": "Custom Disc 4",
       "item.perplayeritem1.disc_11.desc": "Custom Disc 11",
       "item.perplayeritem1.disc_1.desc": "Custom Disc 1",
       "item.perplayeritem1.disc_14.desc": "Custom Disc 14",
@@ -1567,6 +1577,7 @@
       "item.perplayeritem1.disc_12": "Disc 12",
       "item.perplayeritem1.disc_12.desc": "Custom Disc 12",
       "item.perplayeritem1.disc_15.desc": "Custom Disc 15",
+      "item.perplayeritem1.disc_16": "Disc 15",
       "item.perplayeritem1.disc_6.desc": "Custom Disc 6",
       "item.perplayeritem1.disc_11": "Disc 11",
       "item.perplayeritem1.disc_10": "Disc 10",
