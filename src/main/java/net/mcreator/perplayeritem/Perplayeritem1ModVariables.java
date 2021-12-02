@@ -293,6 +293,7 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d17p", instance.d17p);
 			nbt.putDouble("d18p", instance.d18p);
 			nbt.putDouble("d19p", instance.d19p);
+			nbt.putDouble("d16p", instance.d16p);
 			return nbt;
 		}
 
@@ -317,6 +318,7 @@ public class Perplayeritem1ModVariables {
 			instance.d17p = nbt.getDouble("d17p");
 			instance.d18p = nbt.getDouble("d18p");
 			instance.d19p = nbt.getDouble("d19p");
+			instance.d16p = nbt.getDouble("d16p");
 		}
 	}
 
@@ -339,6 +341,7 @@ public class Perplayeritem1ModVariables {
 		public double d17p = 0;
 		public double d18p = 0;
 		public double d19p = 0;
+		public double d16p = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -392,6 +395,7 @@ public class Perplayeritem1ModVariables {
 			clone.d17p = original.d17p;
 			clone.d18p = original.d18p;
 			clone.d19p = original.d19p;
+			clone.d16p = original.d16p;
 		}
 	}
 
@@ -435,6 +439,7 @@ public class Perplayeritem1ModVariables {
 					variables.d17p = message.data.d17p;
 					variables.d18p = message.data.d18p;
 					variables.d19p = message.data.d19p;
+					variables.d16p = message.data.d16p;
 				}
 			});
 			context.setPacketHandled(true);
