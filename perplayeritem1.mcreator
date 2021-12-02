@@ -1551,6 +1551,27 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "disc_19"
+    },
+    {
+      "name": "Disc19pickup",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_19pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1809,7 +1830,7 @@
     "en_us": {
       "item.perplayeritem1.disc_10.desc": "Custom Disc 10",
       "item.perplayeritem1.disc_13.desc": "Custom Disc 13",
-      "item.perplayeritem1.disc_19.desc": "Custom Disc 18",
+      "item.perplayeritem1.disc_19.desc": "Custom Disc 19",
       "item.perplayeritem1.disc_16.desc": "Custom Disc 16",
       "item.perplayeritem1.disc_9.desc": "Custom Disc 9",
       "item.perplayeritem1.disc_9": "Disc 9",
@@ -1836,7 +1857,7 @@
       "item.perplayeritem1.disc_14": "Disc 14",
       "item.perplayeritem1.disc_13": "Disc 13",
       "item.perplayeritem1.disc_12": "Disc 12",
-      "item.perplayeritem1.disc_19": "Disc 18",
+      "item.perplayeritem1.disc_19": "Disc 19",
       "item.perplayeritem1.disc_12.desc": "Custom Disc 12",
       "item.perplayeritem1.disc_15.desc": "Custom Disc 15",
       "item.perplayeritem1.disc_18": "Disc 18",
