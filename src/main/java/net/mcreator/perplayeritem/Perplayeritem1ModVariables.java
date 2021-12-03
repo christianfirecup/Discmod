@@ -128,7 +128,6 @@ public class Perplayeritem1ModVariables {
 		public double d18 = 0;
 		public double d19 = 0;
 		public double d20 = 0;
-		public double d20p = 0;
 		public double d21 = 0;
 		public double d22 = 0;
 		public double d23 = 0;
@@ -170,7 +169,6 @@ public class Perplayeritem1ModVariables {
 			d18 = nbt.getDouble("d18");
 			d19 = nbt.getDouble("d19");
 			d20 = nbt.getDouble("d20");
-			d20p = nbt.getDouble("d20p");
 			d21 = nbt.getDouble("d21");
 			d22 = nbt.getDouble("d22");
 			d23 = nbt.getDouble("d23");
@@ -205,7 +203,6 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d18", d18);
 			nbt.putDouble("d19", d19);
 			nbt.putDouble("d20", d20);
-			nbt.putDouble("d20p", d20p);
 			nbt.putDouble("d21", d21);
 			nbt.putDouble("d22", d22);
 			nbt.putDouble("d23", d23);
@@ -334,6 +331,7 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d28p", instance.d28p);
 			nbt.putDouble("d29p", instance.d29p);
 			nbt.putDouble("d30p", instance.d30p);
+			nbt.putDouble("d20p", instance.d20p);
 			return nbt;
 		}
 
@@ -369,6 +367,7 @@ public class Perplayeritem1ModVariables {
 			instance.d28p = nbt.getDouble("d28p");
 			instance.d29p = nbt.getDouble("d29p");
 			instance.d30p = nbt.getDouble("d30p");
+			instance.d20p = nbt.getDouble("d20p");
 		}
 	}
 
@@ -402,6 +401,7 @@ public class Perplayeritem1ModVariables {
 		public double d28p = 0;
 		public double d29p = 0;
 		public double d30p = 0;
+		public double d20p = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -466,6 +466,7 @@ public class Perplayeritem1ModVariables {
 			clone.d28p = original.d28p;
 			clone.d29p = original.d29p;
 			clone.d30p = original.d30p;
+			clone.d20p = original.d20p;
 		}
 	}
 
@@ -520,6 +521,7 @@ public class Perplayeritem1ModVariables {
 					variables.d28p = message.data.d28p;
 					variables.d29p = message.data.d29p;
 					variables.d30p = message.data.d30p;
+					variables.d20p = message.data.d20p;
 				}
 			});
 			context.setPacketHandled(true);

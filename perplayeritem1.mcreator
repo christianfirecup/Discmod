@@ -1572,6 +1572,984 @@
           }
         ]
       }
+    },
+    {
+      "name": "Disc19dropitem",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_19dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc19",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_19",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc20",
+      "type": "musicdisc",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_20"
+    },
+    {
+      "name": "Disc20pickup",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_20pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc20dropitem",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_20dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc20",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_20",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc21",
+      "type": "musicdisc",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_21"
+    },
+    {
+      "name": "Disc21pickup",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_21pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc21dropitem",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_21dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc21",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_21",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc22",
+      "type": "musicdisc",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_22"
+    },
+    {
+      "name": "Disc22pickup",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_22pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc22dropitem",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_22dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc22",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_22",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc23",
+      "type": "musicdisc",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_23"
+    },
+    {
+      "name": "Disc23pickup",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_23pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc23dropitem",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_23dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc23",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_23",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc24",
+      "type": "musicdisc",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_24"
+    },
+    {
+      "name": "Disc24pickup",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_24pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc24dropitem",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_24dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc24",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_24",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc25",
+      "type": "musicdisc",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_25"
+    },
+    {
+      "name": "Disc25pickup",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_25pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc25dropitem",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_25dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc25",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_25",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc26",
+      "type": "musicdisc",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_26"
+    },
+    {
+      "name": "Disc26pickup",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_26pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc26dropitem",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_26dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc26",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_26",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc27",
+      "type": "musicdisc",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_27"
+    },
+    {
+      "name": "Disc27pickup",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_27pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc27dropitem",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_27dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc27",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_27",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc28",
+      "type": "musicdisc",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_28"
+    },
+    {
+      "name": "Disc28pickup",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_28pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc28dropitem",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_28dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc28",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_28",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc29",
+      "type": "musicdisc",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_29"
+    },
+    {
+      "name": "Disc29pickup",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_29pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc29dropitem",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_29dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc29",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_29",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc30",
+      "type": "musicdisc",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_30"
+    },
+    {
+      "name": "Disc30pickup",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_30pickup",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disc30dropitem",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_30dropitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhasdisc30",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerhasdisc_30",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1804,12 +2782,6 @@
       "value": "0"
     },
     {
-      "name": "d20p",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
-    },
-    {
       "name": "d16p",
       "type": "number",
       "scope": "player_lifetime",
@@ -1934,6 +2906,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "d20p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -1949,23 +2927,56 @@
   "language_map": {
     "en_us": {
       "item.perplayeritem1.disc_10.desc": "Custom Disc 10",
-      "item.perplayeritem1.disc_13.desc": "Custom Disc 13",
-      "item.perplayeritem1.disc_19.desc": "Custom Disc 19",
+      "item.perplayeritem1.disc_24.desc": "Custom Disc 24",
       "item.perplayeritem1.disc_16.desc": "Custom Disc 16",
       "item.perplayeritem1.disc_9.desc": "Custom Disc 9",
+      "item.perplayeritem1.disc_26": "Disc 26",
+      "item.perplayeritem1.disc_25": "Disc 25",
+      "item.perplayeritem1.disc_24": "Disc 24",
+      "item.perplayeritem1.disc_25.desc": "Custom Disc 25",
+      "item.perplayeritem1.disc_4.desc": "Custom Disc 4",
+      "item.perplayeritem1.disc_23": "Disc 23",
+      "item.perplayeritem1.disc_11.desc": "Custom Disc 11",
+      "item.perplayeritem1.disc_29": "Disc 29",
+      "item.perplayeritem1.disc_28": "Disc 28",
+      "item.perplayeritem1.disc_27": "Disc 27",
+      "item.perplayeritem1.disc_17.desc": "Custom Disc 17",
+      "item.perplayeritem1.disc_8.desc": "Custom Disc 8",
+      "item.perplayeritem1.disc_22": "Disc 22",
+      "item.perplayeritem1.disc_21": "Disc 21",
+      "item.perplayeritem1.disc_20": "Disc 20",
+      "item.perplayeritem1.disc_15": "Disc 15",
+      "item.perplayeritem1.disc_14": "Disc 14",
+      "item.perplayeritem1.disc_13": "Disc 13",
+      "item.perplayeritem1.disc_12": "Disc 12",
+      "item.perplayeritem1.disc_19": "Disc 19",
+      "item.perplayeritem1.disc_18": "Disc 18",
+      "item.perplayeritem1.disc_17": "Disc 17",
+      "item.perplayeritem1.disc_16": "Disc 16",
+      "item.perplayeritem1.disc_6.desc": "Custom Disc 6",
+      "item.perplayeritem1.disc_11": "Disc 11",
+      "item.perplayeritem1.disc_10": "Disc 10",
+      "item.perplayeritem1.disc_3.desc": "Custom Disc 3",
+      "item.perplayeritem1.disc_13.desc": "Custom Disc 13",
+      "item.perplayeritem1.disc_27.desc": "Custom Disc 27",
+      "item.perplayeritem1.disc_19.desc": "Custom Disc 19",
+      "item.perplayeritem1.disc_21.desc": "Custom Disc 21",
       "item.perplayeritem1.disc_9": "Disc 9",
+      "item.perplayeritem1.disc_22.desc": "Custom Disc 22",
       "item.perplayeritem1.disc_7": "Disc 7",
       "item.perplayeritem1.disc_8": "Disc 8",
-      "item.perplayeritem1.disc_4.desc": "Custom Disc 4",
-      "item.perplayeritem1.disc_11.desc": "Custom Disc 11",
+      "item.perplayeritem1.disc_28.desc": "Custom Disc 28",
       "item.perplayeritem1.disc_1.desc": "Custom Disc 1",
-      "item.perplayeritem1.disc_17.desc": "Custom Disc 17",
       "item.perplayeritem1.disc_14.desc": "Custom Disc 14",
-      "item.perplayeritem1.disc_8.desc": "Custom Disc 8",
       "subtitles.disk1sound": "",
+      "item.perplayeritem1.disc_30.desc": "Custom Disc 30",
+      "item.perplayeritem1.disc_20.desc": "Custom Disc 20",
       "item.perplayeritem1.disc_5.desc": "Custom Disc 5",
       "item.perplayeritem1.disc_1": "Disc 1",
+      "item.perplayeritem1.disc_26.desc": "Custom Disc 26",
       "item.perplayeritem1.disc_2": "Disc 2",
+      "item.perplayeritem1.disc_23.desc": "Custom Disc 23",
+      "item.perplayeritem1.disc_29.desc": "Custom Disc 29",
       "item.perplayeritem1.disc_2.desc": "Custom Disc 2",
       "item.perplayeritem1.disc_5": "Disc 5",
       "item.perplayeritem1.disc_6": "Disc 6",
@@ -1973,20 +2984,9 @@
       "item.perplayeritem1.disc_18.desc": "Custom Disc 18",
       "item.perplayeritem1.disc_4": "Disc 4",
       "item.perplayeritem1.disc_7.desc": "Custom Disc 7",
-      "item.perplayeritem1.disc_15": "Disc 15",
-      "item.perplayeritem1.disc_14": "Disc 14",
-      "item.perplayeritem1.disc_13": "Disc 13",
-      "item.perplayeritem1.disc_12": "Disc 12",
-      "item.perplayeritem1.disc_19": "Disc 19",
-      "item.perplayeritem1.disc_12.desc": "Custom Disc 12",
       "item.perplayeritem1.disc_15.desc": "Custom Disc 15",
-      "item.perplayeritem1.disc_18": "Disc 18",
-      "item.perplayeritem1.disc_17": "Disc 17",
-      "item.perplayeritem1.disc_16": "Disc 16",
-      "item.perplayeritem1.disc_6.desc": "Custom Disc 6",
-      "item.perplayeritem1.disc_11": "Disc 11",
-      "item.perplayeritem1.disc_10": "Disc 10",
-      "item.perplayeritem1.disc_3.desc": "Custom Disc 3"
+      "item.perplayeritem1.disc_12.desc": "Custom Disc 12",
+      "item.perplayeritem1.disc_30": "Disc 30"
     }
   },
   "foldersRoot": {
