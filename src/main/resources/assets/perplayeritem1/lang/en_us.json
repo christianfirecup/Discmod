@@ -16,6 +16,7 @@
   "item.perplayeritem1.disc_17.desc": "Custom Disc 17",
   "item.perplayeritem1.disc_8.desc": "Custom Disc 8",
   "item.perplayeritem1.disc_22": "Disc 22",
+  "item.perplayeritem1.disc_33.desc": "Custom Disc 33",
   "item.perplayeritem1.disc_21": "Disc 21",
   "item.perplayeritem1.disc_20": "Disc 20",
   "item.perplayeritem1.disc_15": "Disc 15",
@@ -25,6 +26,7 @@
   "item.perplayeritem1.disc_19": "Disc 19",
   "item.perplayeritem1.disc_18": "Disc 18",
   "item.perplayeritem1.disc_17": "Disc 17",
+  "item.perplayeritem1.disc_32.desc": "Custom Disc 32",
   "item.perplayeritem1.disc_16": "Disc 16",
   "item.perplayeritem1.disc_6.desc": "Custom Disc 6",
   "item.perplayeritem1.disc_11": "Disc 11",
@@ -60,6 +62,8 @@
   "item.perplayeritem1.disc_7.desc": "Custom Disc 7",
   "item.perplayeritem1.disc_15.desc": "Custom Disc 15",
   "item.perplayeritem1.disc_12.desc": "Custom Disc 12",
+  "item.perplayeritem1.disc_33": "Disc 33",
+  "item.perplayeritem1.disc_32": "Disc 32",
   "item.perplayeritem1.disc_31": "Disc 31",
   "item.perplayeritem1.disc_30": "Disc 30"
 }
