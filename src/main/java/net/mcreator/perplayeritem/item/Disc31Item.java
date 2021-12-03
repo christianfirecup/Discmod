@@ -12,7 +12,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.perplayeritem.procedures.Disc30pickupProcedure;
+import net.mcreator.perplayeritem.procedures.Disc31pickupProcedure;
 import net.mcreator.perplayeritem.Perplayeritem1ModElements;
 
 import java.util.stream.Stream;
@@ -48,7 +48,7 @@ public class Disc31Item extends Perplayeritem1ModElements.ModElement {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			Disc30pickupProcedure
+			Disc31pickupProcedure
 					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}

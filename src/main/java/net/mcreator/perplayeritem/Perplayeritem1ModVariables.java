@@ -138,6 +138,7 @@ public class Perplayeritem1ModVariables {
 		public double d28 = 0;
 		public double d29 = 0;
 		public double d30 = 0;
+		public double d31 = 0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -179,6 +180,7 @@ public class Perplayeritem1ModVariables {
 			d28 = nbt.getDouble("d28");
 			d29 = nbt.getDouble("d29");
 			d30 = nbt.getDouble("d30");
+			d31 = nbt.getDouble("d31");
 		}
 
 		@Override
@@ -213,6 +215,7 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d28", d28);
 			nbt.putDouble("d29", d29);
 			nbt.putDouble("d30", d30);
+			nbt.putDouble("d31", d31);
 			return nbt;
 		}
 
@@ -332,6 +335,7 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d29p", instance.d29p);
 			nbt.putDouble("d30p", instance.d30p);
 			nbt.putDouble("d20p", instance.d20p);
+			nbt.putDouble("d31p", instance.d31p);
 			return nbt;
 		}
 
@@ -368,6 +372,7 @@ public class Perplayeritem1ModVariables {
 			instance.d29p = nbt.getDouble("d29p");
 			instance.d30p = nbt.getDouble("d30p");
 			instance.d20p = nbt.getDouble("d20p");
+			instance.d31p = nbt.getDouble("d31p");
 		}
 	}
 
@@ -402,6 +407,7 @@ public class Perplayeritem1ModVariables {
 		public double d29p = 0;
 		public double d30p = 0;
 		public double d20p = 0;
+		public double d31p = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -467,6 +473,7 @@ public class Perplayeritem1ModVariables {
 			clone.d29p = original.d29p;
 			clone.d30p = original.d30p;
 			clone.d20p = original.d20p;
+			clone.d31p = original.d31p;
 		}
 	}
 
@@ -522,6 +529,7 @@ public class Perplayeritem1ModVariables {
 					variables.d29p = message.data.d29p;
 					variables.d30p = message.data.d30p;
 					variables.d20p = message.data.d20p;
+					variables.d31p = message.data.d31p;
 				}
 			});
 			context.setPacketHandled(true);
