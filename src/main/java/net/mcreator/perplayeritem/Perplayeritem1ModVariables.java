@@ -129,6 +129,16 @@ public class Perplayeritem1ModVariables {
 		public double d19 = 0;
 		public double d20 = 0;
 		public double d20p = 0;
+		public double d21 = 0;
+		public double d22 = 0;
+		public double d23 = 0;
+		public double d24 = 0;
+		public double d25 = 0;
+		public double d26 = 0;
+		public double d27 = 0;
+		public double d28 = 0;
+		public double d29 = 0;
+		public double d30 = 0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -161,6 +171,16 @@ public class Perplayeritem1ModVariables {
 			d19 = nbt.getDouble("d19");
 			d20 = nbt.getDouble("d20");
 			d20p = nbt.getDouble("d20p");
+			d21 = nbt.getDouble("d21");
+			d22 = nbt.getDouble("d22");
+			d23 = nbt.getDouble("d23");
+			d24 = nbt.getDouble("d24");
+			d25 = nbt.getDouble("d25");
+			d26 = nbt.getDouble("d26");
+			d27 = nbt.getDouble("d27");
+			d28 = nbt.getDouble("d28");
+			d29 = nbt.getDouble("d29");
+			d30 = nbt.getDouble("d30");
 		}
 
 		@Override
@@ -186,6 +206,16 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d19", d19);
 			nbt.putDouble("d20", d20);
 			nbt.putDouble("d20p", d20p);
+			nbt.putDouble("d21", d21);
+			nbt.putDouble("d22", d22);
+			nbt.putDouble("d23", d23);
+			nbt.putDouble("d24", d24);
+			nbt.putDouble("d25", d25);
+			nbt.putDouble("d26", d26);
+			nbt.putDouble("d27", d27);
+			nbt.putDouble("d28", d28);
+			nbt.putDouble("d29", d29);
+			nbt.putDouble("d30", d30);
 			return nbt;
 		}
 
@@ -294,6 +324,16 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d18p", instance.d18p);
 			nbt.putDouble("d19p", instance.d19p);
 			nbt.putDouble("d16p", instance.d16p);
+			nbt.putDouble("d21p", instance.d21p);
+			nbt.putDouble("d22p", instance.d22p);
+			nbt.putDouble("d23p", instance.d23p);
+			nbt.putDouble("d24p", instance.d24p);
+			nbt.putDouble("d25p", instance.d25p);
+			nbt.putDouble("d26p", instance.d26p);
+			nbt.putDouble("d27p", instance.d27p);
+			nbt.putDouble("d28p", instance.d28p);
+			nbt.putDouble("d29p", instance.d29p);
+			nbt.putDouble("d30p", instance.d30p);
 			return nbt;
 		}
 
@@ -319,6 +359,16 @@ public class Perplayeritem1ModVariables {
 			instance.d18p = nbt.getDouble("d18p");
 			instance.d19p = nbt.getDouble("d19p");
 			instance.d16p = nbt.getDouble("d16p");
+			instance.d21p = nbt.getDouble("d21p");
+			instance.d22p = nbt.getDouble("d22p");
+			instance.d23p = nbt.getDouble("d23p");
+			instance.d24p = nbt.getDouble("d24p");
+			instance.d25p = nbt.getDouble("d25p");
+			instance.d26p = nbt.getDouble("d26p");
+			instance.d27p = nbt.getDouble("d27p");
+			instance.d28p = nbt.getDouble("d28p");
+			instance.d29p = nbt.getDouble("d29p");
+			instance.d30p = nbt.getDouble("d30p");
 		}
 	}
 
@@ -342,6 +392,16 @@ public class Perplayeritem1ModVariables {
 		public double d18p = 0;
 		public double d19p = 0;
 		public double d16p = 0;
+		public double d21p = 0;
+		public double d22p = 0;
+		public double d23p = 0;
+		public double d24p = 0;
+		public double d25p = 0;
+		public double d26p = 0;
+		public double d27p = 0;
+		public double d28p = 0;
+		public double d29p = 0;
+		public double d30p = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -396,6 +456,16 @@ public class Perplayeritem1ModVariables {
 			clone.d18p = original.d18p;
 			clone.d19p = original.d19p;
 			clone.d16p = original.d16p;
+			clone.d21p = original.d21p;
+			clone.d22p = original.d22p;
+			clone.d23p = original.d23p;
+			clone.d24p = original.d24p;
+			clone.d25p = original.d25p;
+			clone.d26p = original.d26p;
+			clone.d27p = original.d27p;
+			clone.d28p = original.d28p;
+			clone.d29p = original.d29p;
+			clone.d30p = original.d30p;
 		}
 	}
 
@@ -440,6 +510,16 @@ public class Perplayeritem1ModVariables {
 					variables.d18p = message.data.d18p;
 					variables.d19p = message.data.d19p;
 					variables.d16p = message.data.d16p;
+					variables.d21p = message.data.d21p;
+					variables.d22p = message.data.d22p;
+					variables.d23p = message.data.d23p;
+					variables.d24p = message.data.d24p;
+					variables.d25p = message.data.d25p;
+					variables.d26p = message.data.d26p;
+					variables.d27p = message.data.d27p;
+					variables.d28p = message.data.d28p;
+					variables.d29p = message.data.d29p;
+					variables.d30p = message.data.d30p;
 				}
 			});
 			context.setPacketHandled(true);

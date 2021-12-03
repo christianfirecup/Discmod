@@ -1814,6 +1814,126 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "d21",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d21p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d22",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d22p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d23",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d23p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d24",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d24p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d25",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d25p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d26",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d26p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d27",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d27p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d28",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d28p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d29",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d29p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "d30",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "d30p",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
