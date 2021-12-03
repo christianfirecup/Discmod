@@ -43,6 +43,7 @@
   "item.perplayeritem1.disc_14.desc": "Custom Disc 14",
   "subtitles.disk1sound": "",
   "item.perplayeritem1.disc_30.desc": "Custom Disc 30",
+  "item.perplayeritem1.disc_31.desc": "Custom Disc 30",
   "item.perplayeritem1.disc_20.desc": "Custom Disc 20",
   "item.perplayeritem1.disc_5.desc": "Custom Disc 5",
   "item.perplayeritem1.disc_1": "Disc 1",
@@ -59,5 +60,6 @@
   "item.perplayeritem1.disc_7.desc": "Custom Disc 7",
   "item.perplayeritem1.disc_15.desc": "Custom Disc 15",
   "item.perplayeritem1.disc_12.desc": "Custom Disc 12",
+  "item.perplayeritem1.disc_31": "Disc 30",
   "item.perplayeritem1.disc_30": "Disc 30"
 }
