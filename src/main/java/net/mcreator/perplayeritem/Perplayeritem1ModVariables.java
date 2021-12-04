@@ -148,6 +148,16 @@ public class Perplayeritem1ModVariables {
 		public double d38 = 0;
 		public double d39 = 0;
 		public double d40 = 0;
+		public double d41 = 0;
+		public double d42 = 0;
+		public double d43 = 0;
+		public double d44 = 0;
+		public double d45 = 0;
+		public double d46 = 0;
+		public double d47 = 0;
+		public double d48 = 0;
+		public double d49 = 0;
+		public double d50 = 0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -199,6 +209,16 @@ public class Perplayeritem1ModVariables {
 			d38 = nbt.getDouble("d38");
 			d39 = nbt.getDouble("d39");
 			d40 = nbt.getDouble("d40");
+			d41 = nbt.getDouble("d41");
+			d42 = nbt.getDouble("d42");
+			d43 = nbt.getDouble("d43");
+			d44 = nbt.getDouble("d44");
+			d45 = nbt.getDouble("d45");
+			d46 = nbt.getDouble("d46");
+			d47 = nbt.getDouble("d47");
+			d48 = nbt.getDouble("d48");
+			d49 = nbt.getDouble("d49");
+			d50 = nbt.getDouble("d50");
 		}
 
 		@Override
@@ -243,6 +263,16 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d38", d38);
 			nbt.putDouble("d39", d39);
 			nbt.putDouble("d40", d40);
+			nbt.putDouble("d41", d41);
+			nbt.putDouble("d42", d42);
+			nbt.putDouble("d43", d43);
+			nbt.putDouble("d44", d44);
+			nbt.putDouble("d45", d45);
+			nbt.putDouble("d46", d46);
+			nbt.putDouble("d47", d47);
+			nbt.putDouble("d48", d48);
+			nbt.putDouble("d49", d49);
+			nbt.putDouble("d50", d50);
 			return nbt;
 		}
 
@@ -372,6 +402,16 @@ public class Perplayeritem1ModVariables {
 			nbt.putDouble("d38p", instance.d38p);
 			nbt.putDouble("d39p", instance.d39p);
 			nbt.putDouble("d40p", instance.d40p);
+			nbt.putDouble("d41p", instance.d41p);
+			nbt.putDouble("d42p", instance.d42p);
+			nbt.putDouble("d43p", instance.d43p);
+			nbt.putDouble("d44p", instance.d44p);
+			nbt.putDouble("d45p", instance.d45p);
+			nbt.putDouble("d46p", instance.d46p);
+			nbt.putDouble("d47p", instance.d47p);
+			nbt.putDouble("d48p", instance.d48p);
+			nbt.putDouble("d49p", instance.d49p);
+			nbt.putDouble("d50p", instance.d50p);
 			return nbt;
 		}
 
@@ -418,6 +458,16 @@ public class Perplayeritem1ModVariables {
 			instance.d38p = nbt.getDouble("d38p");
 			instance.d39p = nbt.getDouble("d39p");
 			instance.d40p = nbt.getDouble("d40p");
+			instance.d41p = nbt.getDouble("d41p");
+			instance.d42p = nbt.getDouble("d42p");
+			instance.d43p = nbt.getDouble("d43p");
+			instance.d44p = nbt.getDouble("d44p");
+			instance.d45p = nbt.getDouble("d45p");
+			instance.d46p = nbt.getDouble("d46p");
+			instance.d47p = nbt.getDouble("d47p");
+			instance.d48p = nbt.getDouble("d48p");
+			instance.d49p = nbt.getDouble("d49p");
+			instance.d50p = nbt.getDouble("d50p");
 		}
 	}
 
@@ -462,6 +512,16 @@ public class Perplayeritem1ModVariables {
 		public double d38p = 0;
 		public double d39p = 0;
 		public double d40p = 0;
+		public double d41p = 0;
+		public double d42p = 0;
+		public double d43p = 0;
+		public double d44p = 0;
+		public double d45p = 0;
+		public double d46p = 0;
+		public double d47p = 0;
+		public double d48p = 0;
+		public double d49p = 0;
+		public double d50p = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -537,6 +597,16 @@ public class Perplayeritem1ModVariables {
 			clone.d38p = original.d38p;
 			clone.d39p = original.d39p;
 			clone.d40p = original.d40p;
+			clone.d41p = original.d41p;
+			clone.d42p = original.d42p;
+			clone.d43p = original.d43p;
+			clone.d44p = original.d44p;
+			clone.d45p = original.d45p;
+			clone.d46p = original.d46p;
+			clone.d47p = original.d47p;
+			clone.d48p = original.d48p;
+			clone.d49p = original.d49p;
+			clone.d50p = original.d50p;
 		}
 	}
 
@@ -602,6 +672,16 @@ public class Perplayeritem1ModVariables {
 					variables.d38p = message.data.d38p;
 					variables.d39p = message.data.d39p;
 					variables.d40p = message.data.d40p;
+					variables.d41p = message.data.d41p;
+					variables.d42p = message.data.d42p;
+					variables.d43p = message.data.d43p;
+					variables.d44p = message.data.d44p;
+					variables.d45p = message.data.d45p;
+					variables.d46p = message.data.d46p;
+					variables.d47p = message.data.d47p;
+					variables.d48p = message.data.d48p;
+					variables.d49p = message.data.d49p;
+					variables.d50p = message.data.d50p;
 				}
 			});
 			context.setPacketHandled(true);

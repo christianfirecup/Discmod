@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ark_disc",
+    "name": "Disc 44",
+    "description": "Custom Disc 44",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:disk1sound"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "onItemInInventoryTick": {
+      "name": "Disc44pickup"
+    }
+  }
+}
